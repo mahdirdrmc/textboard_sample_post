@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500;700&family=Noto+Serif+Bengali:wght@600&display=swap");
+body {
+  font-family: Hind Siliguri;
+  font-weight: 500;
+}
+.heading {
+  font-weight: 700;
+}
+.input-field label {
+  color: #283593;
+}
+/* label focus color */
+.input-field input[type="text"]:focus + label {
+  color: #283593;
+}
+.name-div {
+  margin-top: 8vh;
+}
+.dropdown-button {
+  margin: 3vh;
+}
+#name,
+#post {
+  font-family: Noto Serif Bengali !important;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.needed {
+  color: red;
+}
